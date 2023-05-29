@@ -69,8 +69,10 @@ public class Pizza {
 	
 	@Override
 	public String toString() {
-		return "["+getId()+"]"+ getName()+"-"+getDescription()
-		+"-"+getPrice()+"-"+getUrl();
+		return "["+getId()+"]"+ getName()
+		+"\n"+getDescription()
+		+"\nfoto piatto:"+getUrl()
+		+"\n"+getPrice()+"-"+getUrl();
 	}
 	
 }

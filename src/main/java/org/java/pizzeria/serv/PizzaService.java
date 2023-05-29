@@ -20,4 +20,8 @@ public class PizzaService {
 	public Pizza save(Pizza pizza) {
 		return pizzaRepo.save(pizza);
 	}
+	
+	public List<Pizza> findByName(String name){
+		return pizzaRepo.findByName(name);
+	}
 }
